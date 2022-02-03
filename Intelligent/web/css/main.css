@@ -1,0 +1,30 @@
+
+.main{
+    width: 2000px;
+    height: 800px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    overflow: hidden;
+    position: relative;
+
+}
+.box{
+    width: 120px;
+    height: 100px;
+    float: left;
+    padding-left: 40px;
+    padding-top: 30px;
+
+}
+.box img{
+    width: 80px;
+    height: 80px;
+    align-content: center;
+}
+.box p{
+    //font-family: 黑体;
+    padding-left: 10px;
+    align-content: center;
+}

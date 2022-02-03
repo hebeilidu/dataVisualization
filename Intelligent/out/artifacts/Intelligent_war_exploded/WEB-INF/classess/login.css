@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: #fff url(../images/20.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 430px;
+    height: 550px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+p {
+    position: absolute;
+    margin: 30px auto 80px;
+    padding-left: 45px;
+    color: white;
+    font-size: 48px
+}
+
+.login-rdo {
+    position: relative;
+    margin: 20px;
+    padding-left: 40px;
+    padding-top: 120px;
+    font-family: 黑体;
+    font-size: 15px;
+    color: #fff;
+}
+
+.login-input {
+    position: relative;
+    width: 360px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.login-input input {
+    width: 350px;
+    height: 48px;
+    padding-left: 70px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #fff;
+    background-color: transparent;
+    outline: none;
+}
+
+.login-input button {
+    width: 360px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.form-item-s {
+    position: relative;
+    width: 360px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.form-item-s input {
+    width: 240px;
+    height: 40px;
+    padding-left: 70px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #fff;
+    background-color: transparent;
+    outline: none;
+    align-content: center;
+}
+
+.form-item-image {
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    top: 345px;
+    right: 26px;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, "microsoft yahei";
+    color: #292421;
+    border: 1px dashed black;
+}
+
+#username {
+    background: url(../images/username.png) 19px 10px no-repeat;
+    background-size: 30px 30px;
+}
+
+#password {
+    background: url(../images/password.png) 23px 11px no-repeat;
+}
+
+#verifycode {
+    background: url("../images/codes.png") 23px 11px no-repeat;
+    background-size: 30px 30px;
+}
+
+
+.container ::-webkit-input-placeholder {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.container :-moz-placeholder {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.container ::-moz-placeholder {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.container :-ms-input-placeholder {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #fff;
+}
+
+@media screen and (max-width: 500px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    .container {
+        position: static;
+        width: auto;
+        height: auto;
+        margin: 0 30px;
+        border: 0;
+        border-radius: 0;
+    }
+
+    p {
+        margin: 50px auto;
+    }
+
+    .login-input {
+        width: auto;
+    }
+
+    .login-input input, .form-item button, .reg-bar {
+        width: 100%;
+    }
+}
+:-webkit-autofill {
+    -webkit-text-fill-color: #fff !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
